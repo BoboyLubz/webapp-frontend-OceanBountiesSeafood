@@ -14,7 +14,7 @@
                         <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Announcement</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/login">Sign-up</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/login">Sign in</a></li>
                     </ul>
                 </div>
             </div>

@@ -15,3 +15,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [PagesController::class, 'index']);
+
+Route::get('/login', [PagesController::class, 'login']);
+
+Route::get('/password', [PagesController::class, 'password']);
+
+Route::get('/register', [PagesController::class, 'register']);

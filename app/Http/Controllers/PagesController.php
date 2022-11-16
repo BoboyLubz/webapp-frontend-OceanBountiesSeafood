@@ -9,4 +9,13 @@ class PagesController extends Controller
     public function index(){
         return view('homepage');
     }
+    public function login(){
+        return view('login');
+    }
+    public function password(){
+        return view('password');
+    }
+    public function register(){
+        return view('register');
+    }
 }
