@@ -18,4 +18,7 @@ class PagesController extends Controller
     public function register(){
         return view('register');
     }
+    public function adminPage(){
+        return view('adminPage');
+    }
 }

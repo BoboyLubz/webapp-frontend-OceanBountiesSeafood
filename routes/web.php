@@ -21,3 +21,6 @@ Route::get('/login', [PagesController::class, 'login']);
 Route::get('/password', [PagesController::class, 'password']);
 
 Route::get('/register', [PagesController::class, 'register']);
+
+Route::get('/adminPage', [PagesController::class, 'adminPage']);
+
