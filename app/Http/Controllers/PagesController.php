@@ -21,4 +21,10 @@ class PagesController extends Controller
     public function adminPage(){
         return view('adminPage');
     }
+    public function announcement(){
+        return view('announcement');
+    }
+    public function inbox(){
+        return view('inbox');
+    }
 }

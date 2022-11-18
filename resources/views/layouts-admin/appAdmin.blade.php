@@ -15,6 +15,8 @@
         @include('layouts-admin.navbar')
         @include('layouts-admin.sideMenu')
         @yield('head')
+        @yield('announce')
+        @yield('in')
         
 
     <body class="sb-nav-fixed">

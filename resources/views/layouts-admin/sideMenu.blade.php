@@ -9,12 +9,12 @@
                                 Dashboard
                             </a>
 
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="announcement">
                                 <div class="sb-nav-link-icon"><i class="fa-solid fa-bullhorn"></i></div> 
                                 Announcement
                             </a>
 
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="inbox">
                                 <div class="sb-nav-link-icon"><i class="fa-solid fa-inbox"></i></div> 
                                 Inbox
                             </a>

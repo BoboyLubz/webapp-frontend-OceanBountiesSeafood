@@ -24,3 +24,7 @@ Route::get('/register', [PagesController::class, 'register']);
 
 Route::get('/adminPage', [PagesController::class, 'adminPage']);
 
+Route::get('/announcement', [PagesController::class, 'announcement']);
+
+Route::get('/inbox', [PagesController::class, 'inbox']);
+
