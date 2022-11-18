@@ -11,7 +11,11 @@
         <link href="{{ asset('/admin-assets/css/styles.css')}}" rel="stylesheet" />
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     </head>
+        
+        @include('layouts-admin.navbar')
+        @include('layouts-admin.sideMenu')
         @yield('head')
+        
 
     <body class="sb-nav-fixed">
 
