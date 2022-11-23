@@ -88,6 +88,7 @@
             </div>
         </section>
         <!-- Portfolio-->
+        <!--
         <div id="portfolio">
             <div class="container-fluid p-0">
                 <div class="row g-0">
@@ -147,14 +148,84 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>  -->
+        <!--Announcement Carousel -->
+        
+        <div id="portfolio">
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides">
+                    <div class="numbertext">1 / 3</div>
+                        <img src="assets/img/portfolio/thumbnails/menus.jpg" style="width:100%">
+                    <div class="text"></div>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 3</div>
+                        <img src="assets/img/portfolio/thumbnails/order1.png" style="width:100%">
+                    <div class="text"></div>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 3</div>
+                        <img src="assets/img/portfolio/thumbnails/order2.jpg" style="width:100%">
+                    <div class="text"></div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div> 
+        <script> 
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+            // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+            // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+        } 
+        </script>
+        <!--End of Announcement-->
         <!-- Call to action-->
+        <!--
         <section class="page-section bg-dark text-white">
             <div class="container px-4 px-lg-5 text-center">
                 <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
                 <a class="btn btn-light btn-xl" href="https://startbootstrap.com/theme/creative/">Download Now!</a>
             </div>
-        </section>
+        </section> -->
         <!-- Contact-->
         <section class="page-section" id="contact">
             <div class="container px-4 px-lg-5">
