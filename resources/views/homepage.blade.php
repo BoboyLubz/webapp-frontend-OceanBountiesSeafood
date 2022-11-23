@@ -6,7 +6,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top">Ocean Bounties Seafood Restaurant</a>
+                <a class="navbar-brand" href="#page-top">Ocean Bounties Seafood Market & Restaurant</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
@@ -20,20 +20,23 @@
             </div>
         </nav>
         <!-- Masthead-->
+        
         <header class="masthead">
             <div class="container px-4 px-lg-5 h-100">
+                <!--
                 <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
                     <div class="col-lg-8 align-self-end">
-                        <!--<h1 class="text-white font-weight-bold">Your Favorite Place for Free Bootstrap Themes</h1>-->
-                        <!--<hr class="divider" />-->
+                        <h1 class="text-white font-weight-bold">Your Favorite Place for Free Bootstrap Themes</h1>
+                        <hr class="divider" /> 
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <!--<p class="text-white-75 mb-5">Start Bootstrap can help you build better websites using the Bootstrap framework! Just download a theme and start customizing, no strings attached!</p>-->
-                        <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
-                    </div>
-                </div>
-            </div>
-        </header>
+                       <p class="text-white-75 mb-5">Start Bootstrap can help you build better websites using the Bootstrap framework! Just download a theme and start customizing, no strings attached!</p>
+                        <a class="btn btn-primary btn-xl" href="#about">Find Out More</a> 
+                    </div> 
+                </div>  -->
+            </div> 
+        </header>    
+       
         <!-- About-->
         <section class="page-section bg-primary" id="about">
             <div class="container px-4 px-lg-5">
@@ -157,7 +160,7 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 col-xl-6 text-center">
-                        <h2 class="mt-0">Let's Get In Touch!</h2>
+                        <h2 class="mt-0">Order now!</h2>
                         <hr class="divider" />
                         <p class="text-muted mb-5">Ready to start your next project with us? Send us a messages and we will get back to you as soon as possible!</p>
                     </div>
@@ -222,7 +225,8 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-4 text-center mb-5 mb-lg-0">
                         <i class="bi-phone fs-2 mb-3 text-muted"></i>
-                        <div>+1 (555) 123-4567</div>
+                        <div>mobile: (09633107002)</div>
+                        <div>tel: (817 4630)</div>
                     </div>
                 </div>
             </div>
