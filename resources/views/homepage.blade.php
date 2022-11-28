@@ -23,17 +23,7 @@
         
         <header class="masthead">
             <div class="container px-4 px-lg-5 h-100">
-                <!--
-                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
-                    <div class="col-lg-8 align-self-end">
-                        <h1 class="text-white font-weight-bold">Your Favorite Place for Free Bootstrap Themes</h1>
-                        <hr class="divider" /> 
-                    </div>
-                    <div class="col-lg-8 align-self-baseline">
-                       <p class="text-white-75 mb-5">Start Bootstrap can help you build better websites using the Bootstrap framework! Just download a theme and start customizing, no strings attached!</p>
-                        <a class="btn btn-primary btn-xl" href="#about">Find Out More</a> 
-                    </div> 
-                </div>  -->
+               
             </div> 
         </header>    
        
@@ -150,13 +140,227 @@
         </script>
         <!--End of Announcement-->
         <!-- Call to action-->
-        
+        <!--
         <section class="page-section bg-dark text-white">
-            <div class="container px-4 px-lg-5 text-center">
-                <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-                <a class="btn btn-light btn-xl" href="https://startbootstrap.com/theme/creative/">Download Now!</a>
-            </div>
-        </section> 
+            
+        </section> -->
+        
+        <section class="slider">
+	        <ul id="autoWidth" class="cs-hidden">
+	            	
+                <li class="item-a">
+                    
+	                <div class="box">
+	                    
+	                    <div class="slide-img">
+	                        <img alt="1" src="assets/img/portfolio/thumbnails/tuna-poke.jpg">
+	                            
+	                        <div class="overlay">
+	                            	
+	                            <a href="#" class="buy-btn">Order Now</a>	
+	                        </div>
+	                    </div>
+	                    
+	                    <div class="detail-box">
+	                        
+	                        <div class="type">
+	                            <a href="#">Rabbed Cardigan</a>
+	                            <span>Noe Arrival</span>
+	                        </div>
+	                        
+	                        <a href="#" class="price">$23</a>
+		
+	                    </div>
+	
+	                </div>		
+                </li>
+                <!--
+                <li class="item-b">
+                    
+	                <div class="box">
+	                    
+	                    <div class="slide-img">
+	                        <img alt="2" src="assets/img/portfolio/thumbnails/shrimp-tempura.jpg">
+	                        
+	                        <div class="overlay">
+	                            
+	                            <a href="#" class="buy-btn">Order Now</a>	
+	                        </div>
+	                    </div>
+	                    
+	                    <div class="detail-box">
+	                        
+	                        <div class="type">
+	                            <a href="#">Rabbed Cardigan</a>
+	                            <span>Noe Arrival</span>
+	                        </div>
+	                        
+	                        <a href="#" class="price">$20</a>
+		
+	                    </div>
+	
+	                </div>		
+                </li>
+	            	
+                <li class="item-c">
+                    
+	                <div class="box">
+	                    
+	                    <div class="slide-img">
+	                        <img alt="3" src="assets/img/portfolio/thumbnails/seafood-paela.jpg">
+	                        
+	                        <div class="overlay">
+	                            	
+	                            <a href="#" class="buy-btn">Order Now</a>	
+	                        </div>
+	                    </div>
+	                    
+	                    <div class="detail-box">
+	                        
+	                        <div class="type">
+	                            <a href="#">Rabbed Cardigan</a>
+	                            <span>Noe Arrival</span>
+	                        </div>
+	                        
+	                        <a href="#" class="price">$26</a>
+		
+	                    </div>
+	
+	                </div>		
+                </li>
+	            
+                <li class="item-d">
+                    
+	                <div class="box">
+	                    
+	                    <div class="slide-img">
+	                        <img alt="4" src="assets/img/portfolio/thumbnails/octupos-suite.jpg">
+	                        
+	                        <div class="overlay">
+	                            	
+	                            <a href="#" class="buy-btn">Order Now</a>	
+	                        </div>
+	                    </div>
+	                    
+	                    <div class="detail-box">
+	                        
+	                        <div class="type">
+	                            <a href="#">Rabbed Cardigan</a>
+	                            <span>Noe Arrival</span>
+	                        </div>
+	                        
+	                        <a href="#" class="price">$27</a>
+		
+	                    </div>
+	
+	                </div>		
+                </li>
+                	
+                <li class="item-d">
+                    
+	                <div class="box">
+	                    
+	                    <div class="slide-img">
+	                        <img alt="5" src="assets/img/portfolio/thumbnails/lumi.jpg">
+	                        
+	                        <div class="overlay">
+	                            	
+	                            <a href="#" class="buy-btn">Order Now</a>	
+	                        </div>
+	                    </div>
+	                    
+	                    <div class="detail-box">
+	                        
+	                        <div class="type">
+	                            <a href="#">Rabbed Cardigan</a>
+	                            <span>Noe Arrival</span>
+	                        </div>
+	                        
+	                        <a href="#" class="price">$27</a>
+		
+	                    </div>
+	                </div>		
+                </li>
+                	
+                <li class="item-d">
+                    
+	                <div class="box">
+	                    
+	                    <div class="slide-img">
+	                        <img alt="6" src="assets/img/portfolio/thumbnails/lubster.jpg">
+	                        
+	                        <div class="overlay">
+	                            	
+	                            <a href="#" class="buy-btn">Order Now</a>	
+	                        </div>
+	                    </div>
+	                    
+	                    <div class="detail-box">
+	                        
+	                        <div class="type">
+	                            <a href="#">Rabbed Cardigan</a>
+	                            <span>Noe Arrival</span>
+	                        </div>
+	                        
+	                        <a href="#" class="price">$27</a>
+		
+	                    </div>
+	                </div>		
+                </li>
+                	
+                <li class="item-d">
+                    
+	                <div class="box">
+	                    
+	                    <div class="slide-img">
+	                        <img alt="7" src="assets/img/portfolio/thumbnails/fried-squid.jpg">
+	                        
+	                        <div class="overlay">
+	                            	
+	                            <a href="#" class="buy-btn">Order Now</a>	
+	                        </div>
+	                    </div>
+	                    
+	                    <div class="detail-box">
+	                        
+	                        <div class="type">
+	                            <a href="#">Rabbed Cardigan</a>
+	                            <span>Noe Arrival</span>
+	                        </div>
+	                        
+	                        <a href="#" class="price">$27</a>
+		
+	                    </div>
+	                </div>		
+                </li>
+                	
+                <li class="item-d">
+                    
+	                <div class="box">
+	                    
+	                    <div class="slide-img">
+	                        <img alt="8" src="assets/img/portfolio/thumbnails/baked-scallops.jpg">
+	                        
+	                        <div class="overlay">
+	                            
+	                            <a href="#" class="buy-btn">Order Now</a>	
+	                        </div>
+	                    </div>
+	                    
+	                    <div class="detail-box">
+	                        
+	                        <div class="type">
+	                            <a href="#">Rabbed Cardigan</a>
+	                            <span>Noe Arrival</span>
+	                        </div>
+	                        
+	                        <a href="#" class="price">$27</a>
+		
+	                    </div>
+	                </div>		
+                </li> -->
+            </ul>
+        </section> -->
         <!-- Contact-->
         <section class="page-section" id="contact">
             <div class="container px-4 px-lg-5">
@@ -180,20 +384,20 @@
                             <!-- Name input-->
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                <label for="name">Full name</label>
+                                <label for="name">Full Name</label>
                                 <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                             </div>
                             <!-- Email address input-->
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="email">Email address</label>
+                                <label for="email">Email Address</label>
                                 <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                                 <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                             </div>
                             <!-- Phone number input-->
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Phone number</label>
+                                <label for="phone">Phone Number</label>
                                 <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                             </div>
                             <!-- Message input-->
