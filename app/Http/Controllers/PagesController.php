@@ -24,6 +24,9 @@ class PagesController extends Controller
     public function announcement(){
         return view('announcement');
     }
+    public function createAnnounce(){
+        return view('createAnnounce');
+    }
     public function inbox(){
         return view('inbox');
     }

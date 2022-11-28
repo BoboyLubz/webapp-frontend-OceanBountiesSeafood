@@ -17,6 +17,7 @@
         @yield('head')
         @yield('announce')
         @yield('in')
+        @yield('createAn')
         
 
     <body class="sb-nav-fixed">
