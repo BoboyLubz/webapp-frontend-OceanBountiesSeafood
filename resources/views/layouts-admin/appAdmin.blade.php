@@ -17,7 +17,8 @@
         @yield('head')
         @yield('announce')
         @yield('in')
-        @yield('createAn')
+        <!--@/include('createAnnounce')-->
+        <!--@/yield('createAn') -->
         
 
     <body class="sb-nav-fixed">
