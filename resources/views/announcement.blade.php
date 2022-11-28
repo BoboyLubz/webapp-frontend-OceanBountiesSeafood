@@ -46,9 +46,9 @@
                                             <td>
                                                 <form action="" method="POST"> <!--{/{ route('products.destroy',$product->id) }} -->
      
-                                                    <a class="btn btn-info" href="">Show</a> <!--{/{ route('products.show',$product->id) }} -->
+                                                    <a class="btn btn-info" href="showAnnounce">Show</a> <!--{/{ route('products.show',$product->id) }} -->
       
-                                                    <a class="btn btn-primary" href="">Edit</a> <!--{/{ route('products.edit',$product->id) }} -->
+                                                    <a class="btn btn-primary" href="editAnnounce">Edit</a> <!--{/{ route('products.edit',$product->id) }} -->
 
                                                     <!--
                                                     @/csrf

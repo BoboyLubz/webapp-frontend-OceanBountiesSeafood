@@ -28,5 +28,9 @@ Route::get('/announcement', [PagesController::class, 'announcement']);
 
 Route::get('/createAnnounce', [PagesController::class, 'createAnnounce']);
 
+Route::get('/editAnnounce', [PagesController::class, 'editAnnounce']);
+
+Route::get('/showAnnounce', [PagesController::class, 'showAnnounce']);
+
 Route::get('/inbox', [PagesController::class, 'inbox']);
 
