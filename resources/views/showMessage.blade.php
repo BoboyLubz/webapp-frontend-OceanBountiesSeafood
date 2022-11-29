@@ -49,7 +49,7 @@
                                             </div> -->
                                             <div class="mt-4 mb-0">
                                                 <!--<button type="submit" class="btn btn-success">Submit</button> -->
-                                                <a class="btn btn-primary" href="replayMessage">Replay</a>
+                                                <a class="btn btn-info" href="replayMessage">Replay</a>
                                             </div>
                                         </form>
                                     </div>
