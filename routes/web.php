@@ -34,3 +34,7 @@ Route::get('/showAnnounce', [PagesController::class, 'showAnnounce']);
 
 Route::get('/inbox', [PagesController::class, 'inbox']);
 
+Route::get('/showMessage', [PagesController::class, 'showMessage']);
+
+Route::get('/replayMessage', [PagesController::class, 'replayMessage']);
+

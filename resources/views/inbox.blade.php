@@ -8,7 +8,7 @@
                     <div class="container-fluid px-4">
                         <h1 class="mt-4">Inbox</h1>
                         <ol class="breadcrumb mb-4">
-                            <a class="btn btn-success" href=""> Create </a> 
+                            <!--<a class="btn btn-success" href=""> Create </a> -->
                         </ol>
                         
                         <div class="card mb-4">
@@ -20,7 +20,7 @@
                                 <table id="datatablesSimple">
                                     <thead>
                                         <tr>
-                                            <th>ID</th>
+                                            <th>Message ID</th>
                                             <th>Full Name</th>
                                             <th>Email Address</th>
                                             <th>Phone Number</th>
@@ -31,7 +31,7 @@
                                     </thead>
                                     <tfoot>
                                         <tr>
-                                            <th>ID</th>
+                                            <th>Message ID</th>
                                             <th>Full Name</th>
                                             <th>Email Address</th>
                                             <th>Phone Number</th>
@@ -49,9 +49,9 @@
                                             <td>
                                                 <form action="" method="POST"> <!--{/{ route('products.destroy',$product->id) }} -->
      
-                                                    <a class="btn btn-info" href="">Show</a> <!--{/{ route('products.show',$product->id) }} -->
+                                                    <a class="btn btn-info" href="showMessage">Show</a> <!--{/{ route('products.show',$product->id) }} -->
       
-                                                    <a class="btn btn-primary" href="">Edit</a> <!--{/{ route('products.edit',$product->id) }} -->
+                                                    <!--<a class="btn btn-success" href="">Replay</a> --><!--{/{ route('products.edit',$product->id) }} -->
 
                                                     <!--
                                                     @/csrf

@@ -36,4 +36,10 @@ class PagesController extends Controller
     public function inbox(){
         return view('inbox');
     }
+    public function showMessage(){
+        return view('showMessage');
+    }
+    public function replayMessage(){
+        return view('replayMessage');
+    }
 }
