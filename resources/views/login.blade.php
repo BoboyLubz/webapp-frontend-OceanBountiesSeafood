@@ -27,7 +27,10 @@
                                             </div>
                                             <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
                                                 <a class="small" href="password">Forgot Password?</a>
-                                                <a class="btn btn-primary" href="index.html">Login</a>
+                                                <!--<a class="btn btn-primary" href="index.html">Login</a>-->
+                                            </div>
+                                            <div class="mt-4 mb-0">
+                                                <div class="d-grid"><a class="btn btn-primary btn-block" href="index.html">LOGIN</a></div>
                                             </div>
                                         </form>
                                     </div>

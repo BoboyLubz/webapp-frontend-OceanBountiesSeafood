@@ -11362,11 +11362,11 @@ hr.divider-light {
     color: #fff;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
-    color: 	rgb(191, 64, 64); /* original color rgba(255, 255, 255, 0.7)*/
+    color: 	rgba(5, 35, 143, 0.8); /* original color rgba(255, 255, 255, 0.7)*/
     padding: 0 1rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #ff0; /*original color #fff*/
+    color: rgba(22, 62, 203, 0.8); /*original color #fff*/
   }
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;

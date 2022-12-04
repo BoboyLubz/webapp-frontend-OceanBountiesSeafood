@@ -20,7 +20,10 @@
                                             </div>
                                             <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
                                                 <a class="small" href="login">Return to login</a>
-                                                <a class="btn btn-primary" href="login">Reset Password</a>
+                                                <!--<a class="btn btn-success" href="login">Reset Password</a> -->
+                                            </div>
+                                            <div class="mt-4 mb-0">
+                                                <div class="d-grid"><a class="btn btn-success btn-block" href="login">Reset Password</a></div>
                                             </div>
                                         </form>
                                     </div>
@@ -33,20 +36,5 @@
                     </div>
                 </main>
             </div>
-            <div id="layoutAuthentication_footer">
-                <footer class="py-4 bg-light mt-auto">
-                    <div class="container-fluid px-4">
-                        <div class="d-flex align-items-center justify-content-between small">
-                            <div class="text-muted">Copyright &copy; Your Website 2022</div>
-                            <div>
-                                <a href="#">Privacy Policy</a>
-                                &middot;
-                                <a href="#">Terms &amp; Conditions</a>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
-            </div>
-        </div>
-        
+            
 @endsection

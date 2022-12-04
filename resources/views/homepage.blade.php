@@ -34,7 +34,7 @@
                     <div class="col-lg-8 text-center">
                         <h2 class="text-white mt-0">We've got what you need!</h2>
                         <hr class="divider divider-light" />
-                        <p class="text-white-75 mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
+                        <p class="text-white-75 mb-4">script here!</p>
                         <a class="btn btn-light btn-xl" href="#services">Get Started!</a>
                     </div>
                 </div>
@@ -48,30 +48,30 @@
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
-                            <div class="mb-2"><i class="bi bi-card-checklist"></i></div>
+                            <div class="mb-2"><i class="bi bi-card-checklist" style="font-size: 100px; color: red;"></i></div>
                             <h3 class="h4 mb-2">Catering</h3>
-                            <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+                            <p class="text-muted mb-0">script!</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
-                            <div class="mb-2"><i class="bi bi-truck"></i></div>
+                            <div class="mb-2"><i class="bi bi-truck" style="font-size: 100px; color: red;"></i></div>
                             <h3 class="h4 mb-2">Delivery</h3>
-                            <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
+                            <p class="text-muted mb-0">script!</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
-                            <div class="mb-2"><i class="bi bi-cart4"></i></div>
+                            <div class="mb-2"><i class="bi bi-cart4" style="font-size: 100px; color: red;"></i></div>
                             <h3 class="h4 mb-2">Market</h3>
-                            <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
+                            <p class="text-muted mb-0">script!</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
-                            <div class="mb-2"><i class="bi bi-list-check"></i></div>
+                            <div class="mb-2"><i class="bi bi-list-check" style="font-size: 100px; color: red;"></i></div>
                             <h3 class="h4 mb-2">Dine-in</h3>
-                            <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
+                            <p class="text-muted mb-0">script!</p>
                         </div>
                     </div>
                 </div>
@@ -368,7 +368,7 @@
                     <div class="col-lg-8 col-xl-6 text-center">
                         <h2 class="mt-0">Order now!</h2>
                         <hr class="divider" />
-                        <p class="text-muted mb-5">Ready to start your next project with us? Send us a messages and we will get back to you as soon as possible!</p>
+                        <p class="text-muted mb-5">script here!</p>
                     </div>
                 </div>
                 <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
@@ -424,7 +424,7 @@
                             <!-- an error submitting the form-->
                             <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                             <!-- Submit Button-->
-                            <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Submit</button></div>
+                            <div class="d-grid"><button class="btn btn-success btn-xl disabled" id="submitButton" type="submit">Submit</button></div>
                         </form>
                     </div>
                 </div>
