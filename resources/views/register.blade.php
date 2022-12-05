@@ -16,37 +16,41 @@
                                             <div class="row mb-3">
                                                 <div class="col-md-6">
                                                     <div class="form-floating mb-3 mb-md-0">
-                                                        <input class="form-control" id="inputFirstName" type="text" placeholder="Enter your first name" />
+                                                        <input class="form-control" id="inputFirstName" type="text" placeholder="Enter your first name" required/>
                                                         <label for="inputFirstName">First name</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="form-floating">
-                                                        <input class="form-control" id="inputLastName" type="text" placeholder="Enter your last name" />
+                                                        <input class="form-control" id="inputLastName" type="text" placeholder="Enter your last name" required/>
                                                         <label for="inputLastName">Last name</label>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="form-floating mb-3">
-                                                <input class="form-control" id="inputEmail" type="email" placeholder="name@example.com" />
+                                                <input class="form-control" id="inputEmail" type="email" placeholder="name@example.com" required/>
                                                 <label for="inputEmail">Email address</label>
+
                                             </div>
                                             <div class="row mb-3">
                                                 <div class="col-md-6">
                                                     <div class="form-floating mb-3 mb-md-0">
-                                                        <input class="form-control" id="inputPassword" type="password" placeholder="Create a password" />
+                                                        <input class="form-control" id="inputPassword" type="password" placeholder="Create a password" required/>
                                                         <label for="inputPassword">Password</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="form-floating mb-3 mb-md-0">
-                                                        <input class="form-control" id="inputPasswordConfirm" type="password" placeholder="Confirm password" />
+                                                        <input class="form-control" id="inputPasswordConfirm" type="password" placeholder="Confirm password" required/>
                                                         <label for="inputPasswordConfirm">Confirm Password</label>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="mt-4 mb-0">
-                                                <div class="d-grid"><a class="btn btn-success btn-block" href="register">Create Account</a></div>
+                                                <div class="d-grid">
+                                                    <button type="submit" class="btn btn-success btn-block">Create Account</button>
+                                                    <!--<a class="btn btn-success btn-block" href="register">Create Account</a> -->                
+                                                </div>
                                             </div>
                                         </form>
                                     </div>

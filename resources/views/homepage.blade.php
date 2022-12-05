@@ -28,7 +28,7 @@
         </header>    
        
         <!-- About-->
-        <section class="page-section bg-primary" id="about">
+        <section class="page-section bg-danger" id="about">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 text-center">
@@ -144,7 +144,7 @@
         <section class="page-section bg-dark text-white">
             
         </section> -->
-        
+        <!--
         <section class="slider">
 	        <ul id="autoWidth" class="cs-hidden">
 	            	
@@ -173,7 +173,7 @@
 	                    </div>
 	
 	                </div>		
-                </li>
+                </li> -->
                 <!--
                 <li class="item-b">
                     
@@ -383,7 +383,7 @@
                         <form id="contactForm" data-sb-form-api-token="API_TOKEN">
                             <!-- Name input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required"/>
                                 <label for="name">Full Name</label>
                                 <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                             </div>

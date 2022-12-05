@@ -29,8 +29,8 @@
                                             <div class="row mb-3">
                                                 <div class="col-md-6">
                                                     <div class="form-floating mb-3 mb-md-0">
-                                                        <input class="form-control" id="inputFirstName" type="text" placeholder="Enter the name" />
-                                                        <label for="inputFirstName">Name</label>
+                                                        <input class="form-control" id="name" type="text" placeholder="Enter the name" />
+                                                        <label for="name">Name</label>
                                                     </div>
                                                 </div>
                                             </div>
@@ -47,7 +47,9 @@
                                                 </div>
                                             </div>
                                             <div class="mt-4 mb-0">
-                                                <button type="submit" class="btn btn-success">Submit</button>
+                                                <div class="d-grid">
+                                                    <button type="submit" class="btn btn-success btn-block">Submit</button>
+                                                </div>
                                             </div>
                                         </form>
                                     </div>

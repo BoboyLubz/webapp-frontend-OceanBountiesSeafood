@@ -34,25 +34,27 @@
                                             <div class="row mb-3">
                                                 <div class="col-md-6">
                                                     <div class="form-floating mb-3 mb-md-0">
-                                                        <input class="form-control" id="inputFirstName" type="text" placeholder="Enter the name" />
-                                                        <label for="inputFirstName">Name</label>
+                                                        <input class="form-control" id="name" type="text" placeholder="Enter the name" required/>
+                                                        <label for="name">Name</label>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="form-floating mb-3">
-                                                <textarea class="form-control" style="height:150px" name="description" placeholder="Description"></textarea>
+                                                <textarea class="form-control" style="height:150px" name="description" placeholder="Description" required></textarea>
                                                 <label for="inputDescription">Description</label>
                                             </div>
                                             <div class="row mb-3">
                                                 <div class="col-md-6">
                                                     <div class="form-floating mb-3 mb-md-0">
-                                                        <input type="file" name="image" class="form-control" placeholder="image">
+                                                        <input type="file" name="image" class="form-control" placeholder="image" required>
                                                         <label for="inputImage">Image</label>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="mt-4 mb-0">
-                                                <button type="submit" class="btn btn-success">Submit</button>
+                                                <div class="d-grid">
+                                                    <button type="submit" class="btn btn-success btn-block">Submit</button>
+                                                </div>
                                             </div>
                                         </form>
                                     </div>

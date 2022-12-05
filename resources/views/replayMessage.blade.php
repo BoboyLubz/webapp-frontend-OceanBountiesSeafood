@@ -37,7 +37,7 @@
                                             </div>
                                             -->
                                             <div class="form-floating mb-3">
-                                                <textarea class="form-control" style="height:150px" name="message" placeholder="Message"></textarea>
+                                                <textarea class="form-control" style="height:150px" name="message" placeholder="Message" required></textarea>
                                                 <label for="inputMessage">Message</label>
                                             </div>
                                             <!--
@@ -50,7 +50,9 @@
                                                 </div>
                                             </div> -->
                                             <div class="mt-4 mb-0">
-                                                <button type="submit" class="btn btn-success">Submit</button>                                             
+                                                <div class="d-grid">
+                                                    <button type="submit" class="btn btn-success btn-block">Submit</button> 
+                                                </div>                                            
                                             </div>
                                         </form>
                                     </div>

@@ -15,15 +15,18 @@
                                         <div class="small mb-3 text-muted">Enter your email address and we will send you a link to reset your password.</div>
                                         <form>
                                             <div class="form-floating mb-3">
-                                                <input class="form-control" id="inputEmail" type="email" placeholder="name@example.com" />
+                                                <input class="form-control" id="inputEmail" type="email" placeholder="name@example.com" required/>
                                                 <label for="inputEmail">Email address</label>
                                             </div>
                                             <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
                                                 <a class="small" href="login">Return to login</a>
                                                 <!--<a class="btn btn-success" href="login">Reset Password</a> -->
                                             </div>
-                                            <div class="mt-4 mb-0">
-                                                <div class="d-grid"><a class="btn btn-success btn-block" href="login">Reset Password</a></div>
+                                            <div class="mt-4 mb-0">               
+                                                <div class="d-grid">
+                                                    <button type="submit" class="btn btn-success btn-block" href="login">Reset Password</button>
+                                                    <!--<a class="btn btn-success btn-block" href="login">Reset Password</a>-->
+                                                </div>
                                             </div>
                                         </form>
                                     </div>
