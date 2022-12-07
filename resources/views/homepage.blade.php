@@ -28,18 +28,29 @@
         </header>    
        
         <!-- About-->
+        
         <section class="page-section bg-danger" id="about">
+            
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 text-center">
-                        <h2 class="text-white mt-0">We've got what you need!</h2>
+                        <h2 class="text-white mt-0">ABOUT US</h2>
                         <hr class="divider divider-light" />
-                        <p class="text-white-75 mb-4">script here!</p>
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center">                   
+                    <img src="assets/img/portfolio/thumbnails/restaurant.jpg" style="width:50%">
+                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <p class="text-white-75 mb-4">Ocean Bounties - Seafood Market and Restaurant is a paradisiacal and conductive marketplace restaurant which provides customers with nutritious, delicious and fresh varied seafoods. </p>
+                        <p class="text-white-75 mb-4">We also offer foodstuffs like seafood dishes, soups, salad & sandwiches and seafood pizza & steaks. This ideal tropical space is suited in J. Rosales Avenue - Butuan City Agusan del Norte.
+                        </p>
                         <a class="btn btn-light btn-xl" href="#services">Get Started!</a>
                     </div>
                 </div>
             </div>
-        </section>
+        </section> 
         <!-- Services-->
         <section class="page-section" id="services">
             <div class="container px-4 px-lg-5">
@@ -50,21 +61,22 @@
                         <div class="mt-5">
                             <div class="mb-2"><i class="bi bi-card-checklist" style="font-size: 100px; color: red;"></i></div>
                             <h3 class="h4 mb-2">Catering</h3>
-                            <p class="text-muted mb-0">script!</p>
+                            <p class="text-muted mb-0">Ocean Bounties - Seafood Market and Restaurant has the capacity to host large celebrations and catering services in and outside the panaramic marketplace restaurant. </p>
+                            <p class="text-muted mb-0">We serve food that is freshly prepared within the premises. We use "homemade" delicacies and ensures quality standards that aligns with food and safety sanitation. </br> <i>"Ali na, food trip ta!" </i></p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
                             <div class="mb-2"><i class="bi bi-truck" style="font-size: 100px; color: red;"></i></div>
                             <h3 class="h4 mb-2">Delivery</h3>
-                            <p class="text-muted mb-0">script!</p>
+                            <p class="text-muted mb-0">HOW TO ORDER: </br> •	Complete the electronic Order Form and submit at least 3 days prior to the desired delivery date. For rush orders, please order via the following hotline numbers: </br> #1234 </br> #5678 </br> #9112</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
                             <div class="mb-2"><i class="bi bi-cart4" style="font-size: 100px; color: red;"></i></div>
                             <h3 class="h4 mb-2">Market</h3>
-                            <p class="text-muted mb-0">script!</p>
+                            <p class="text-muted mb-0">Ocean Bounties Seafood Market and Restaurant sells variety of fresh seafoods with its unique savor and texture such as saltwater fish, freshwater fish, shellfish, and crustaceans.</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
@@ -88,19 +100,19 @@
                 <!-- Full-width images with number and caption text -->
                 <div class="mySlides">
                     <div class="numbertext">1 / 3</div>
-                        <img src="assets/img/portfolio/thumbnails/menus.jpg" style="width:100%">
+                        <img src="assets/img/portfolio/thumbnails/menus.jpg" style="width:50%">
                     <div class="text"></div>
                 </div>
 
                 <div class="mySlides">
                     <div class="numbertext">2 / 3</div>
-                        <img src="assets/img/portfolio/thumbnails/order1.png" style="width:100%">
+                        <img src="assets/img/portfolio/thumbnails/order1.png" style="width:50%">
                     <div class="text"></div>
                 </div>
 
                 <div class="mySlides">
                     <div class="numbertext">3 / 3</div>
-                        <img src="assets/img/portfolio/thumbnails/order2.jpg" style="width:100%">
+                        <img src="assets/img/portfolio/thumbnails/order2.jpg" style="width:50%">
                     <div class="text"></div>
                 </div>
 
@@ -425,8 +437,28 @@
                             <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                             <!-- Submit Button-->
                             <div class="d-grid"><button class="btn btn-success btn-xl disabled" id="submitButton" type="submit">Submit</button></div>
-                        </form>
+                        </form> 
                     </div>
+                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-right">
+                    <!--<div class="col-lg-4 text-center mb-5 mb-lg-0">
+                    <i class="pop-me-over bi bi-messenger" style="font-size: 50px; color: green" data-toggle="popover" data-placement="top" data-content="This is some extra information." data-title="Information"></i>
+                    <</div>-->
+                    <p>
+                        <a class="pop-me-over" data-toggle="popover" data-placement="top"
+                        data-content="This is some extra information."
+                        data-title="Information"><i class="pop-me-over bi bi-messenger" style="font-size: 50px; color: green"></i></a>
+                    </p>
+                    <script>//<![CDATA[ 
+                        $(function(){
+                        // prevents jumping
+                        $("a.pop-me-over").on("click", function (e) {
+                        e.preventDefault();
+                        return true;
+                        });
+                        $(".pop-me-over").popover();
+                        });//]]>  
+                    </script>
                 </div>
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-4 text-center mb-5 mb-lg-0">
